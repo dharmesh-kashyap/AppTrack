@@ -32,6 +32,9 @@ Run the networking script:
 python Script_network.py
 ```
 
+![image](https://github.com/user-attachments/assets/e7c4d8b7-502f-49ce-bd63-c4fecb90307e)
+
+
 ## Test the Data Flow
 
 - Check if data is added to the Flask API:
