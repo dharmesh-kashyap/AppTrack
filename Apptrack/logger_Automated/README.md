@@ -36,6 +36,9 @@ Run the Python script to fetch system information:
 python android_logger.py
 ```
 
+![image](https://github.com/user-attachments/assets/1a6dadd3-3f8a-48ad-bd6d-3e7b2efd6df9)
+
+
 The script logs:
 - OS version.
 - Device model.
