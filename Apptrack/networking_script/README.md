@@ -29,7 +29,7 @@ The networking script fetches system information from the emulator using ADB and
 
 Run the networking script:
 ```bash
-python networking_script.py
+python Script_network.py
 ```
 
 ## Test the Data Flow
