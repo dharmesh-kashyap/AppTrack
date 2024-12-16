@@ -29,6 +29,10 @@
 
 ## How It Works
 
+## Testing
+- Use Postman to test endpoints with proper headers and payloads.
+
+
 ### POST `/add-app`
 - Adds an app to the database.
 - Example Request:
@@ -40,12 +44,18 @@
   }
   ```
 
+  ![image](https://github.com/user-attachments/assets/378a469b-bd1e-4563-be93-5b2ef125fd67)
+
+
 ### GET `/get-app/{id}`
 - Fetches details of an app by its ID.
 - Example URL:
   ```bash
   http://127.0.0.1:5000/get-app/1
   ```
+  
+  ![image](https://github.com/user-attachments/assets/1c989cf1-d57c-4648-ad16-f92370a19b34)
+
 
 ### DELETE `/delete-app/{id}`
 - Deletes an app by its ID.
@@ -54,12 +64,9 @@
   http://127.0.0.1:5000/delete-app/1
   ```
 
-## Testing
-- Use Postman to test endpoints with proper headers and payloads.
-- Example commands:
-  - Add app:
-    ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"app_name":"SampleApp","version":"1.0","description":"Test app"}' http://127.0.0.1:5000/add-app
-    ```
+  ![image](https://github.com/user-attachments/assets/e7ae2c9b-c041-4368-98cb-39dad4e64820)
+
+
+
 
 ---
